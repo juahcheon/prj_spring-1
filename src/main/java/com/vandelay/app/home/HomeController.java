@@ -9,6 +9,9 @@ public class HomeController {
 	@RequestMapping(value= "/")
 	public String home() {
 //		서버 필요작업 수행 여기서부터
+		
+		
+//		href="/resources/xdm/v1/css/commonXdm.css"
 		return "home";
 	}
 	
