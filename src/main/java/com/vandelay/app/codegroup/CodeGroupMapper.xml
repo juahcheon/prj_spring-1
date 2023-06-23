@@ -8,10 +8,10 @@
     
     <select id="selectList" resultMap ="resultMapObj">
     	SELECT 
-    		"type"
+    		seq,
+    		type
     	FROM 
     		codeGroup
-    
     </select>
 
 </mapper>    
