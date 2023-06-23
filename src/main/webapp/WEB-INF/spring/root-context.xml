@@ -16,8 +16,8 @@
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="database-1.cl9nvrrke5cl.ap-northeast-2.rds.amazonaws.com:33066/vandelay_db" />
-		<property name="username" value="db_username" />
-		<property name="password" value="db_password" />
+		<property name="username" value="adminXX" />
+		<property name="password" value="Bu95311Le2#" />
 	</bean>
 	    
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
