@@ -18,9 +18,9 @@ public class CodeGroupController {
 	public String codeGroupList(Model model) {
 		
 //		List<CodeGroup> list = service.selectList();
-		model.addAttribute("list",list);
+//		model.addAttribute("list",list);
 		
-		
+//		왼쪽의 list는 jsp에서 사용할 변수명
 		model.addAttribute("list",service.selectList());
 		return "codeGroupList";
 	}
